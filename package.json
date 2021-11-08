@@ -1,0 +1,34 @@
+{
+  "name": "boots",
+  "displayName": "BootstrapTextBlock",
+  "description": "HTML text to start your Bootstrap project",
+  "version": "1.0.0",
+  "publisher": "Nicolas Allen",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nicolas-Andulsky-Allen/boots1.git"
+  },
+  "engines": {
+    "vscode": "^1.62.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
